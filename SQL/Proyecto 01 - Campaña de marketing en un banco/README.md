@@ -1,6 +1,6 @@
 # Campaña de marketing en un banco
 
-En esta ocación utilizamos una fuente de datos de una campaña de marketing realziada por un banco para captar clientes que accedan a un deposito a plazo. Haciendo uso de SQLServer, comenzamos por entender los datos mediante procedimientos almacenados del sistema, cambiamos el tipo de dato de algunas columnas y agregamos otras que nos puedan servir. Pasando asi a la manimupalición de los datos para responder preguntas estrategicas como:
+En esta ocación utilizamos una fuente de datos de una campaña de marketing realizada por un banco para captar clientes que accedan a un deposito a plazo. Haciendo uso de SQLServer, comenzamos por entender los datos mediante procedimientos almacenados del sistema, cambiamos el tipo de dato de algunas columnas y agregamos otras que nos puedan servir. Pasando asi a la manimupalición de los datos para responder preguntas estrategicas como:
 
 ## 1. ¿Que rango de edad ha respondido mejor y peor a la campaña realizada?
 
