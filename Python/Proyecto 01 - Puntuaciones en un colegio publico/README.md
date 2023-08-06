@@ -1,4 +1,4 @@
-## Puntuaciones en un colegio publico
+# Puntuaciones en un colegio publico
 
 En el presente proyecto abordaremos un conjunto de datos sobre los tres tipos de puntuaciones (Matematica, Lectura y Escritura) que obtuvieron los alumnos de un colegio publico, en este conjunto de datos tambien se encuentran factores externos que pueden o no influir en el resultado de las calificaciones. Esto lo estudiaremos a lo largo de este cuaderno haciendo uso de las diversas librerias utilizadas para el analisis de datos (Numpy, Pandas, Matplotlip y Seaborn).
 
