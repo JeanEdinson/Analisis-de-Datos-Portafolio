@@ -18,9 +18,9 @@ Haciendo uso del editor de power query pude realizar las siguientes tareas:
 
 ```
 let
-    Origen = Folder.Files("D:\Documentos\CURSOS TOMADOS\Portafolio - Power BI\Proyecto 1 - Datos FIFA\Datos"),
-    #"D:\Documentos\CURSOS TOMADOS\Portafolio - Power BI\Proyecto 1 - Datos FIFA\Datos FIFA\Datos\_WorldCupMatches csv" = Origen{[#"Folder Path"="D:\Documentos\CURSOS TOMADOS\Portafolio - Power BI\Proyecto 1 - Datos FIFA\Datos\",Name="WorldCupMatches.csv"]}[Content],
-    #"CSV importado" = Csv.Document(#"D:\Documentos\CURSOS TOMADOS\Portafolio - Power BI\Proyecto 1 - Datos FIFA\Datos FIFA\Datos\_WorldCupMatches csv",[Delimiter=",", Columns=20, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    Origen = Folder.Files("Direccion de carpeta"),
+    #"Datos\_WorldCupMatches csv" = Origen{[#"Folder Path"="Direccion de carpeta",Name="WorldCupMatches.csv"]}[Content],
+    #"CSV importado" = Csv.Document(#"Datos\_WorldCupMatches csv",[Delimiter=",", Columns=20, Encoding=65001, QuoteStyle=QuoteStyle.None]),
     #"Encabezados promovidos" = Table.PromoteHeaders(#"CSV importado", [PromoteAllScalars=true]),
     #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Year", Int64.Type}, {"Datetime", type text}, {"Stage", type text}, {"Stadium", type text}, {"City", type text}, {"Home Team Name", type text}, {"Home Team Goals", Int64.Type}, {"Away Team Goals", Int64.Type}, {"Away Team Name", type text}, {"Win conditions", type text}, {"Attendance", Int64.Type}, {"Half-time Home Goals", Int64.Type}, {"Half-time Away Goals", Int64.Type}, {"Referee", type text}, {"Assistant 1", type text}, {"Assistant 2", type text}, {"RoundID", Int64.Type}, {"MatchID", Int64.Type}, {"Home Team Initials", type text}, {"Away Team Initials", type text}}),
     #"Eliminar campos vacios en la columna años" = Table.SelectRows(#"Tipo cambiado", each ([Year] <> null and [Year] <> "")),
