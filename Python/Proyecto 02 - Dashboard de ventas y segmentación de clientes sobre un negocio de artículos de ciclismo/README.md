@@ -64,7 +64,8 @@ La finalidad de explicar el análisis RFM es porque se utilizo el lenguaje DAX p
 ![image](https://github.com/JeanEdinson/Analisis-de-Datos-Portafolio/assets/51329337/26baf93b-5084-4d1a-af7a-3c825ad46143)
 
 ## 4.	Visualización de Datos.
-En esta etapa se crearon diversos gráficos, los cuales se formatearon de tal forma para garantizar armoniosidad en la visualización, por otro lado, se establecieron las interacciones entre gráficos y se determinaron los filtros necesarios para el análisis.
+
+Se utilizaron visualizaciones de cajas, barras, pastel, tarjetas, tablas, dispersión, además, se crearon páginas que se utilizaron como tooltips para obtener más detalles de las ventas, se creó una página para la obtención de mayor detalle sobre los clientes que formaban cada segmentación o cluster, entre otras cosas más que podrán ver el reporte final.
 
 ## 5.	Reporteo de Datos.
 
@@ -76,8 +77,8 @@ Los gráficos se dividieron en tres páginas:
 
 ![image](https://github.com/JeanEdinson/Analisis-de-Datos-Portafolio/assets/51329337/a9341747-ecac-4363-a943-721345dabed8)
 
--	Clientes Antiguos: En esta página se crearon y ordenaron gráficos para analizar el comportamiento de los clientes con el negocio por segmentación.
-
+-	Clientes Antiguos: En esta página se crearon y ordenaron gráficos para mostrar la segmentación realizada gracias al análisis RFM, mediante la opción de "Obtener Detalles" se puede observar que clientes conforman cada cluster.
+  
 ![image](https://github.com/JeanEdinson/Analisis-de-Datos-Portafolio/assets/51329337/60cac4e4-7da9-4610-97bb-97eae75e2ef0)
 
 ![image](https://github.com/JeanEdinson/Analisis-de-Datos-Portafolio/assets/51329337/630c1b5e-99df-4e75-953d-50f5a072b820)
