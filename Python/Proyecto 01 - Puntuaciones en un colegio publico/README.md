@@ -21,4 +21,4 @@ Descripción de cada columna del conjunto de datos
 - ReadingScore : puntuación de la prueba de lectura (0-100)
 - WritingScore : puntaje de la prueba de escritura (0-100)
 
-Le invito a abrir el cuaderno de jupyter notebook adjunto o hacer click en el siguiente enlace, ![Analisis de Datos]() para que pueda observar todos los pasos realizados durante el correcto analisis de los datos.
+Le invito a abrir el cuaderno de jupyter notebook adjunto o hacer click en el siguiente enlace, [Analisis de Datos](puntuaciones-colegio-publico.ipynb), para que pueda observar todos los pasos realizados durante el correcto analisis de los datos.
