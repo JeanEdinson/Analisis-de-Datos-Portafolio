@@ -162,7 +162,7 @@ Se utilizaron visualizaciones de áreas, barras, pastel, tarjetas, tablas, adem�
 
 El reporte final se puede ver en el siguiente enlace:
 
-[Reporte Final - Campeonato Mundial](https://app.powerbi.com/view?r=eyJrIjoiNTgwMmFkMDktZmRmYS00ZDlhLTg3NzItNjgzNjQ4MjY1Y2YxIiwidCI6ImM4MThkN2FlLTQzNmEtNGQ3MC1iODlhLWE1ZGRiYjljNWEyNSJ9)
+[Reporte Final - Desempeño de Agentes TI](https://app.powerbi.com/view?r=eyJrIjoiNTgwMmFkMDktZmRmYS00ZDlhLTg3NzItNjgzNjQ4MjY1Y2YxIiwidCI6ImM4MThkN2FlLTQzNmEtNGQ3MC1iODlhLWE1ZGRiYjljNWEyNSJ9)
 
 
 
